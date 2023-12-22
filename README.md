@@ -64,5 +64,5 @@ cd learn-local/frontend
 ```
 npm start
 ```
-4. frontend should be running on `http://localhost:3001`
+4. frontend should be running on `http://localhost:3000`
 
