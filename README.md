@@ -16,11 +16,20 @@ Follow these steps to get the application running on your local machine:
 
 1. Open your terminal.
 2. Navigate to the flask-app directory (backend).
-3. make sure to activate virtual environment
+3. create virtual environment
+   (Windows)
+   ```
+   python -m venv <path>
+   ```
+   (Mac)
+   ```
+   python -m venv venv
+   ```
+4. make sure to activate virtual environment
    ```
    source venv/bin/activate
    ```
-4. install Flask
+5. install Flask
    (Windows)
    ```
    pip install Flask
@@ -51,8 +60,9 @@ Follow these steps to get the application running on your local machine:
 cd learn-local/frontend
 ```
 
-4. Run the frontend on a local server using the following:
+3. Run the frontend on a local server using the following:
 ```
 npm start
 ```
+4. frontend should be running on `http://localhost:3001`
 
