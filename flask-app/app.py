@@ -41,3 +41,5 @@ def data():
     bookings = Booking.query.all()
     return render_template('info.html', bookings=bookings)
 
+with app.app_context():
+    db.create_all()
